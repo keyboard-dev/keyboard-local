@@ -49,23 +49,23 @@ When you want your AI Client (Claude, ChatGPT, etc.) to execute tasks on your be
 
 Keyboard is available to use today for free. See the [quickstart](https://docs.keyboard.dev/docs/quickstart) guide to get up and running quickly. 
 
-## Documentation
+### Documentation
 
 Full docs can be found at https://docs.keyboard.dev/ but see below for direct links to a few docs that will help you use Keyboard after you get set up: 
 
 * [Learn how to connect your third party apps](https://docs.keyboard.dev/docs/third-party-apps) 
 * [Tips for using Keyboard with Claude](https://docs.keyboard.dev/docs/usability-tips-with-claude) 
 
-## Run Keyboard and Contribute
+### Run Keyboard and Contribute
 
-1. Clone Repos
+1️⃣ Clone Repos
 
 ```bash
 git clone --recursive https://github.com/keyboard-dev/keyboard-local.git
 cd keyboard-local
 ```
 
-2. Start Approver Client (Electron Desktop App)
+2️⃣ Start Approver Client (Electron Desktop App)
 
 ```bash
 cd apps/approver-client
@@ -74,7 +74,7 @@ git pull origin main
 npm install && npm run dev
 ```
 
-3. Start Keyboard MCP Server
+3️⃣ Start Keyboard MCP Server
 
 In a separate terminal: 
 
