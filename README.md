@@ -13,6 +13,8 @@ Keyboard is a universal Model Context Protocol (MCP) server designed to transfor
 <img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/converted.gif" width="1000">
 
 
+Here is a link to demo: https://youtu.be/jKMQ8V2seLY?t=312
+
 ## How does it work
 
 ### How it works in 3 steps:
