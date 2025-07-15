@@ -10,7 +10,7 @@ Keyboard is a universal Model Context Protocol (MCP) server designed to transfor
 
 ## 🚀 Quick Demo
 
-<img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/converted.gif" width="600">
+<img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/converted.gif" width="1000">
 
 
 ## How does it work
