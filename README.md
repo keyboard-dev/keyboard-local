@@ -10,7 +10,7 @@ Keyboard is a universal Model Context Protocol (MCP) server designed to transfor
 
 ## 🚀 Quick Demo
 
-![Keyboard Demo](https://ourgif.s3.us-east-1.amazonaws.com/keyboard-run-the-docs.gif)
+<video src="https://ourgif.s3.us-east-1.amazonaws.com/noaudio.mp4" autoplay loop muted playsinline></video>
 
 ## How does it work
 
