@@ -4,15 +4,15 @@
 
 [![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
 
-## What is Keyboard? 
+## What is Keyboard?
 
 Keyboard is a universal Model Context Protocol (MCP) server designed to transform how you interact with AI clients like Claude. It provides a flexible and secure platform for connecting your internal applications to your AI client and executing complex tasks across various domains via direct code execution and task automation
 
 ## 🚀 Quick Demo
 
-<img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/converted.gif" width="1000">
+<img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
 
-See the full demo [here](https://youtu.be/jKMQ8V2seLY?feature=shared&t=305) 
+See the full demo [here](https://youtu.be/jKMQ8V2seLY?feature=shared&t=305)
 
 ## How does it work
 
@@ -40,21 +40,21 @@ When you want your AI Client (Claude, ChatGPT, etc.) to execute tasks on your be
 
 ## Key Features
 
-- **Connect Your Tools:** One MCP, all your tools. Provide Keyboard access to third party tools in your own GitHub environment. 
+- **Connect Your Tools:** One MCP, all your tools. Provide Keyboard access to third party tools in your own GitHub environment.
 - **Private:** Keyboard doesn't have access to your API keys, it only has access to the GitHub Codespace.
-- **Secure Workflows:** Run code safely within your own controlled environment with human oriented approval workflows.  
+- **Secure Workflows:** Run code safely within your own controlled environment with human oriented approval workflows.
 - **Human Control:** You approve what code is executed, you also approve what data is sent is back to MCP clients like Claude.
 
 ## Getting Started
 
-Keyboard is available to use today for free. See the [quickstart](https://docs.keyboard.dev/docs/quickstart) guide to get up and running quickly. 
+Keyboard is available to use today for free. See the [quickstart](https://docs.keyboard.dev/docs/quickstart) guide to get up and running quickly.
 
 ### Documentation
 
-Full docs can be found at https://docs.keyboard.dev/ but see below for direct links to a few docs that will help you use Keyboard after you get set up: 
+Full docs can be found at https://docs.keyboard.dev/ but see below for direct links to a few docs that will help you use Keyboard after you get set up:
 
-* [Learn how to connect your third party apps](https://docs.keyboard.dev/docs/third-party-apps) 
-* [Tips for using Keyboard with Claude](https://docs.keyboard.dev/docs/usability-tips-with-claude) 
+* [Learn how to connect your third party apps](https://docs.keyboard.dev/docs/third-party-apps)
+* [Tips for using Keyboard with Claude](https://docs.keyboard.dev/docs/usability-tips-with-claude)
 
 ### Run Keyboard and Contribute
 
@@ -76,7 +76,7 @@ npm install && npm run dev
 
 3️⃣ Start Keyboard MCP Server
 
-In a separate terminal: 
+In a separate terminal:
 
 ```bash
 cd apps/keyboard-mcp
@@ -123,7 +123,6 @@ This software is provided "as is" without warranty of any kind, express or impli
 
 **⭐ If Keyboard helps you work more securely with AI, please give us a star!**
 
-Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you. 
+Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
-
