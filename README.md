@@ -12,7 +12,7 @@ Keyboard is a universal Model Context Protocol (MCP) server designed to transfor
 
 <img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
 
-See the full demo [here](https://youtu.be/jKMQ8V2seLY?feature=shared&t=305)
+See the full demo [here](https://app.supademo.com/demo/cmd6bnb3t5xwac4kjx91usuv3)
 
 ## How does it work
 
