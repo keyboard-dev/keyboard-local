@@ -110,7 +110,7 @@ That's It! Work like you normally would. This repo just saves you from cloning m
 
 ## ⚠️ Disclaimer
 
-**Use at your own risk.** Keyboard is experimental software that executes code in your environment. While we've designed it with security in mind, you should:
+**Use at your own risk.** Keyboard is experimental software that executes code in your GitHub Codspace environment. While we've designed it with security in mind, you should:
 
 - Review all code before approving execution
 - Only connect trusted applications
