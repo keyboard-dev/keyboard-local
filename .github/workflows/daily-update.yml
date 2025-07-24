@@ -9,17 +9,40 @@ on:
 jobs:
   update-submodules:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: recursive
           token: ${{ secrets.GITHUB_TOKEN }}
-
+          fetch-depth: 0  # Fetch all history
+      
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+      
       - name: Update submodules to latest
         run: |
-          git submodule update --remote --merge
+          # Update each submodule individually with error handling
+          git submodule foreach --recursive '
+            echo "Updating submodule: $name"
+            git fetch origin
+            
+            # Try to merge normally first
+            if ! git merge origin/$(git rev-parse --abbrev-ref HEAD) --no-edit; then
+              echo "Normal merge failed, trying with --allow-unrelated-histories"
+              git merge origin/$(git rev-parse --abbrev-ref HEAD) --allow-unrelated-histories --no-edit || {
+                echo "Merge with unrelated histories failed, resetting to remote"
+                git reset --hard origin/$(git rev-parse --abbrev-ref HEAD)
+              }
+            fi
+          '
           
+          # Update the parent repository's submodule references
+          git submodule update --remote
+      
       - name: Check for changes
         id: verify-changed-files
         run: |
@@ -28,12 +51,10 @@ jobs:
           else
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
-
+      
       - name: Commit and push changes
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add .
           git commit -m "🤖 Auto-update submodules to latest commits"
           git push
