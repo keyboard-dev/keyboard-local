@@ -1,6 +1,6 @@
 # Keyboard
 
-**A powerful Model Context Protocol (MCP) server for secure task execution directly in your AI Client.**
+**One MCP, all your apps, no credit tracking**
 
 [![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
 
