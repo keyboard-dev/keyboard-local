@@ -10,6 +10,8 @@ Keyboard is a universal Model Context Protocol (MCP) server allowing you to conn
 
 ## 🚀 Quick Demo
 
+Below is a quick demo of Claude creating an online survey through Keyboard using the Typeform API.
+
 <img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
 
 See the full demo [here](https://app.supademo.com/demo/cmd6bnb3t5xwac4kjx91usuv3)
