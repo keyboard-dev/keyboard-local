@@ -47,7 +47,7 @@ When you want your AI Client (Claude, ChatGPT, etc.) to execute tasks on your be
 
 ## Getting Started
 
-Keyboard is available to use today for free. See the [quickstart](https://docs.keyboard.dev/docs/quickstart) guide to get up and running quickly.
+Keyboard is available to use today for free. If you want to use Keyboard see the [quickstart](https://docs.keyboard.dev/docs/quickstart) guide to get started quickly. 
 
 ### Documentation
 
@@ -57,6 +57,8 @@ Full docs can be found at https://docs.keyboard.dev/ but see below for direct li
 * [Tips for using Keyboard with Claude](https://docs.keyboard.dev/docs/usability-tips-with-claude)
 
 ### Run & Contribute to Keyboard
+
+If you want to run the whole codebase and contribute to both the MCP server and the desktop client see the instructions below.
 
 1️⃣ Clone the monorepo (with submodules)
 
@@ -84,8 +86,6 @@ git checkout main
 git pull origin main
 npm install && npm run build
 ```
-
-Now see the [quickstart](https://docs.keyboard.dev/docs/quickstart) for a step by step guide
 
 ## 🔥 Important: How to Contribute
 
