@@ -56,9 +56,9 @@ Full docs can be found at https://docs.keyboard.dev/ but see below for direct li
 * [Learn how to connect your third party apps](https://docs.keyboard.dev/docs/third-party-apps)
 * [Tips for using Keyboard with Claude](https://docs.keyboard.dev/docs/usability-tips-with-claude)
 
-### Run Keyboard and Contribute
+### Run & Contribute to Keyboard
 
-1️⃣ Clone Repos
+1️⃣ Clone the monorepo (with submodules)
 
 ```bash
 git clone --recursive https://github.com/keyboard-dev/keyboard-local.git
