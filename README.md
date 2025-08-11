@@ -112,12 +112,12 @@ That's It! Work like you normally would. This repo just saves you from cloning m
 
 ## ⚠️ Disclaimer
 
-**Use at your own risk.** Keyboard is experimental software that executes code in your GitHub Codspace environment. While we've designed it with security in mind, you should:
+Keyboard executes code in your GitHub Codspace environment. While we've designed it with security in mind, you should:
 
 - Review all code before approving execution
 - Only connect trusted applications
 - Understand that API calls may have real-world effects
-- Use in non-production environments initially
+- Don't give Keyboard or by extension your GitHub codespace permissions that could in general ruin your life or career
 
 This software is provided "as is" without warranty of any kind, express or implied.
 
@@ -128,3 +128,4 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
