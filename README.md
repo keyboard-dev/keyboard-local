@@ -1,6 +1,6 @@
 # Keyboard
 
-**Connect your AI to your apps—securely run code, automate tasks, and stay in control.**
+**Connect your apps to your AI Client. Securely run code, automate tasks, and stay in control.**
 
 [![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
 
@@ -128,4 +128,5 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
