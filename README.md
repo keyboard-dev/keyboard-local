@@ -1,20 +1,63 @@
 # Keyboard
 
-**Connect your apps to your AI Client. Securely run code, automate tasks, and stay in control.**
-
-[![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
-
-## What is Keyboard?
-
-Keyboard is a universal Model Context Protocol (MCP) server allowing you to connect all your apps to your favorite AI client, like Claude. It provides a flexible and secure platform for connecting your internal applications to your AI client and executing complex tasks across various domains via direct code execution and task automation.
-
-## 🚀 Quick Demo
-
-Below is a quick demo of Claude creating an online survey through Keyboard using the Typeform API.
+**Claude can now actually DO things, not just talk about them.**
 
 <img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
 
-See the full demo [here](https://app.supademo.com/demo/cmd6bnb3t5xwac4kjx91usuv3)
+[![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
+
+## Before Keyboard ❌
+**You:** "Send an email to my team about tomorrow's meeting"  
+**Claude:** "Here's how you would write that email..."  
+*You manually copy, paste, send*
+
+## With Keyboard ✅
+**You:** "Send an email to my team about tomorrow's meeting"  
+**Claude:** "I'll send that email for you" → *[You approve]* → **Email sent** ✓
+
+## 🔥 What Can Claude Actually Do Now?
+
+- **📧 Send emails** through Gmail
+- **📅 Schedule meetings** in Google Calendar  
+- **📊 Create surveys** with Typeform
+- **🎫 Create tickets** in Linear/Asana
+- **📝 Edit documents** in Google Drive
+- **💬 Send messages** in Slack
+- **🔗 Any API you connect** - Twitter, Stripe, GitHub, anything
+
+All running securely in YOUR GitHub Codespace with YOUR API keys.
+## See It In Action (30 seconds)
+
+<img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
+
+## Quick Start (5 minutes)
+
+[Quickstart](https://docs.keyboard.dev/quickstart)
+
+## The Secret: You Stay In Control
+
+Every action shows you the exact code BEFORE it runs:
+
+```markdown
+// Claude wants to run this:
+await gmail.send({
+  to: "team@company.com",
+  subject: "Tomorrow's meeting",
+  body: "Hi team, ..."
+})
+
+[Approve] [Reject] [Edit]
+```
+
+Your data never leaves your GitHub Codespace. Keyboard can't see your API keys.
+
+## Example Automations
+
+- "Check my calendar and email everyone in my next meeting"
+- "Find all unread customer emails and create support tickets"
+- "Post this update to Twitter and LinkedIn"
+- "Create a Typeform survey from this list of questions"
+- "Find that document about Q3 planning and summarize it"
 
 ## How does it work
 
@@ -46,10 +89,6 @@ When you want your AI Client (Claude, ChatGPT, etc.) to execute tasks on your be
 - **Private:** Keyboard doesn't have access to your API keys, it only has access to the GitHub Codespace.
 - **Secure Workflows:** Run code safely within your own controlled environment with human oriented approval workflows.
 - **Human Control:** You approve what code is executed, you also approve what data is sent is back to MCP clients like Claude.
-
-## Getting Started
-
-Keyboard is available to use today for free. If you want to use Keyboard see the [quickstart](https://docs.keyboard.dev/docs/quickstart) guide to get started quickly. 
 
 ### Documentation
 
@@ -128,5 +167,6 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
