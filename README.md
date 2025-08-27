@@ -49,7 +49,9 @@ See [Quickstart](https://docs.keyboard.dev/quickstart) to get set up. The proces
 
 ## When Should I Use Keyboard?
 
-When you want your AI client (Claude, Cursor, ChatGPT, etc.) to execute tasks on your behalf. Connect your tools to your own secure GitHub, ask Claude to execute something in one of them and watch Keyboard go to work. With Keyboard, you don’t need to install an MCP server for each app or service you’d like to connect to your AI client. Instead, any app with an API key can be connected to Keyboard while giving you control to approve or deny the actions.
+When you want your AI client (Claude, Cursor, ChatGPT, etc.) to actually execute tasks instead of just suggesting code. 
+
+Connect your tools to your secure GitHub environment, ask Claude to do something, and Keyboard handles the execution with your approval. No need to install separate MCP servers for each app, or rely on a third party to maintain their plug ins - any API-enabled service can connect through Keyboard.
 
 ## The Secret: You Stay In Control
 
@@ -203,6 +205,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
