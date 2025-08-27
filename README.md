@@ -1,6 +1,12 @@
 <div align="center">
 
-# [Keyboard](https://www.keyboard.dev/)
+<a href="https://www.keyboard.dev/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/images/kbwhite.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/images/blacktextkb.png">
+    <img alt="Keyboard Logo" src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/images/blacktextkb.png" width="400">
+  </picture>
+</a>
 
 ### Your AI Client can now actually DO things, not just talk about them
 
@@ -211,6 +217,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
