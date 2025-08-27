@@ -38,9 +38,9 @@ All running securely in YOUR GitHub with YOUR API keys.
 
 <div align="center">
   <a href="https://app.supademo.com/embed/cmd6bnb3t5xwac4kjx91usuv3">
-    <img src="https://path-to-your-preview-image.png" alt="Keyboard Demo - Click to Watch" width="800">
+    <img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/images/demo-preview.png" alt="Interactive Demo" width="800">
     <br>
-    <strong>🎬 Click to watch the interactive demo</strong>
+    <strong>🎬 Click for Interactive Demo</strong>
   </a>
 </div>
 
@@ -211,6 +211,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
