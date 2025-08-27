@@ -77,8 +77,7 @@ Keyboard creates a seamless bridge between AI conversations and actual code exec
 2. **Review & approve** the explanation and generated code in the Keyboard desktop app
 3. **Watch it execute** safely in your own GitHub Codespace
 
-### Flow chart
-
+### Full Breakdown
 
 ```mermaid
 flowchart LR
@@ -100,8 +99,6 @@ flowchart LR
     style F fill:#9370DB,stroke:#4B0082,stroke-width:3px,color:#fff
     style G fill:#FF4500,stroke:#8B0000,stroke-width:3px,color:#fff
 ```
-
-### Full Breakdown
 
 Keyboard’s MCP server enables remote code execution in a GitHub codespace tied to your GitHub account that can then execute tasks in the connected apps via their APIs. When you ask your AI Client to have Keyboard  to execute a task for you, Keyboard spins up a codespace and writes a node.js script to execute that task for you. The AI Client will walk you through the steps it’s taking and you have the ability to approve any code before it gets executed in the AI Client on your behalf. Once the code is executed you then have the option accept or reject sending the response back to a MCP client like Claude to better ensure your privacy.
 
@@ -193,6 +190,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
