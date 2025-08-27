@@ -36,7 +36,7 @@ All running securely in YOUR GitHub with YOUR API keys.
 
 ## See It In Action (30 seconds)
 
-<img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
+<div style="position: relative; box-sizing: content-box; max-height: 80vh; max-height: 80svh; width: 100%; aspect-ratio: 1.5376569037656904; padding: 40px 0 40px 0;"><iframe src="https://app.supademo.com/embed/cmd6bnb3t5xwac4kjx91usuv3?embed_v=2&utm_source=embed" loading="lazy" title="Keyboard Demo" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Get Started (5 minutes)
 
@@ -205,6 +205,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
