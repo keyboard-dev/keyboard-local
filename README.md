@@ -67,7 +67,9 @@ Your data never leaves your GitHub. Keyboard can't see your API keys. Always sec
 - "Create a Typeform survey from this list of questions"
 - "Find that document about Q3 planning and summarize it"
 
-## How It Works
+## How Keyboard Works
+
+Keyboard creates a seamless bridge between AI conversations and actual code execution through a simple approval-based workflow:
 
 ### How it works in 3 steps:
 
@@ -75,12 +77,28 @@ Your data never leaves your GitHub. Keyboard can't see your API keys. Always sec
 2. **Review & approve** the explanation and generated code in the Keyboard desktop app
 3. **Watch it execute** safely in your own GitHub Codespace
 
+### Flow chart
+
+
 ```mermaid
 flowchart LR
-    A[📱 Claude Request] -->|"Send email via Gmail"| B[🔍 Keyboard Generates Code]
-    B -->|📋 Shows preview| C[✅ You approve/reject]
-    C -->|✅ Approved| D[☁️ Executes in Codespace]
-    D -->|📊 Results| A
+    A[👤 User] -->|Chat| B[🤖 Claude Desktop]
+    B -->|Generated Code| C[📋 Keyboard App<br/>Receives Script]
+    C -->|Review & Approve| D[✅ User Decision]
+    D -->|Approved| E[⚡ Executes in<br/>GitHub Codespace]
+    E -->|Results| F[📊 Back to User]
+    F -->|Continue| A
+    
+    D -->|Rejected| G[❌ Process Ends]
+    G -.->|Try Again| A
+    
+    style A fill:#f9d71c,stroke:#333,stroke-width:2px
+    style B fill:#90EE90,stroke:#333,stroke-width:2px
+    style C fill:#87CEEB,stroke:#333,stroke-width:2px
+    style D fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style E fill:#87CEEB,stroke:#333,stroke-width:2px
+    style F fill:#DDA0DD,stroke:#333,stroke-width:2px
+    style G fill:#FFA07A,stroke:#333,stroke-width:2px
 ```
 
 ### Full Breakdown
@@ -175,6 +193,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
