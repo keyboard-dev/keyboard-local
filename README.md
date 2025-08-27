@@ -1,20 +1,25 @@
-# Keyboard
+<div align="center">
 
-**Your AI Client can now actually DO things, not just talk about them.**
+# [Keyboard](https://www.keyboard.dev/)
+
+### Your AI Client can now actually DO things, not just talk about them
+
 *Works in Claude, Cursor, VS Code, any AI Client that supports MCP*
 
 [![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
 
+</div>
+
 <img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
 
 ## Before Keyboard ❌
-**You:** "Send an email to my team about tomorrow's meeting"  
-**Claude:** "Here's how you would write that email..."  
-*You manually copy, paste, send*
+- **You:** "Send an email to my team about tomorrow's meeting"  
+- **Claude:** "Here's how you would write that email..."  
+- *You manually copy, paste, send*
 
 ## With Keyboard ✅
-**You:** "Send an email to my team about tomorrow's meeting"  
-**Claude:** "I'll send that email for you" → *[You approve]* → **Email sent** ✓
+- **You:** "Send an email to my team about tomorrow's meeting"  
+- **Claude:** "I'll send that email for you" → *[You approve]* → **Email sent** ✓
 
 ## 🔥 What Can Your AI Client Actually Do Now?
 
@@ -170,6 +175,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
