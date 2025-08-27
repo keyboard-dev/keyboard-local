@@ -92,13 +92,13 @@ flowchart LR
     D -->|Rejected| G[❌ Process Ends]
     G -.->|Try Again| A
     
-    style A fill:#f9d71c,stroke:#333,stroke-width:2px
-    style B fill:#90EE90,stroke:#333,stroke-width:2px
-    style C fill:#87CEEB,stroke:#333,stroke-width:2px
-    style D fill:#FFB6C1,stroke:#333,stroke-width:2px
-    style E fill:#87CEEB,stroke:#333,stroke-width:2px
-    style F fill:#DDA0DD,stroke:#333,stroke-width:2px
-    style G fill:#FFA07A,stroke:#333,stroke-width:2px
+    style A fill:#FFD700,stroke:#B8860B,stroke-width:3px,color:#000
+    style B fill:#32CD32,stroke:#228B22,stroke-width:3px,color:#000
+    style C fill:#4169E1,stroke:#191970,stroke-width:3px,color:#fff
+    style D fill:#FF69B4,stroke:#C71585,stroke-width:3px,color:#000
+    style E fill:#1E90FF,stroke:#0000CD,stroke-width:3px,color:#fff
+    style F fill:#9370DB,stroke:#4B0082,stroke-width:3px,color:#fff
+    style G fill:#FF4500,stroke:#8B0000,stroke-width:3px,color:#fff
 ```
 
 ### Full Breakdown
@@ -193,6 +193,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
