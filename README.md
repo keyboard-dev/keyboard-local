@@ -4,7 +4,7 @@
 
 ### Your AI Client can now actually DO things, not just talk about them
 
-*Works in Claude, Cursor, VS Code, any AI Client that supports MCP*
+*Works in Claude, Cursor, VS Code, any AI Client that supports MCP (Model Context Protocol)*
 
 [![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
 
@@ -46,6 +46,10 @@ See [Quickstart](https://docs.keyboard.dev/quickstart) to get set up. The proces
 - Download the Keyboard desktop app
 - Provide Keyboard access to an isolated Keyboard repo you will fork in the setup
 - Connect any apps you'd like to use in your AI client
+
+## When Should I Use Keyboard?
+
+When you want your AI client (Claude, Cursor, ChatGPT, etc.) to execute tasks on your behalf. Connect your tools to your own secure GitHub, ask Claude to execute something in one of them and watch Keyboard go to work. With Keyboard, you don’t need to install an MCP server for each app or service you’d like to connect to your AI client. Instead, any app with an API key can be connected to Keyboard while giving you control to approve or deny the actions.
 
 ## The Secret: You Stay In Control
 
@@ -121,10 +125,6 @@ The process is straightforward:
 5. **Results**: You get real results, not just code suggestions
 
 This architecture ensures you maintain full control while enabling your AI to actually execute tasks rather than just providing instructions.
-
-### When Should I Use Keyboard?
-
-When you want your AI client (Claude, Cursor, ChatGPT, etc.) to execute tasks on your behalf. Connect your tools to your own secure GitHub, ask Claude to execute something in one of them and watch Keyboard go to work. With Keyboard, you don’t need to install an MCP server for each app or service you’d like to connect to your AI client. Instead, any app with an API key can be connected to Keyboard while giving you control to approve or deny the actions.
 
 ## Documentation
 
@@ -203,6 +203,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
