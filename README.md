@@ -1,10 +1,11 @@
 # Keyboard
 
-**Claude can now actually DO things, not just talk about them.**
-
-<img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
+**Your AI Client can now actually DO things, not just talk about them.**
+*Works in Claude, Cursor, VS Code, any AI Client that supports MCP*
 
 [![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
+
+<img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
 
 ## Before Keyboard ❌
 **You:** "Send an email to my team about tomorrow's meeting"  
@@ -15,22 +16,24 @@
 **You:** "Send an email to my team about tomorrow's meeting"  
 **Claude:** "I'll send that email for you" → *[You approve]* → **Email sent** ✓
 
-## 🔥 What Can Claude Actually Do Now?
+## 🔥 What Can Your AI Client Actually Do Now?
 
 - **📧 Send emails** through Gmail
 - **📅 Schedule meetings** in Google Calendar  
 - **📊 Create surveys** with Typeform
-- **🎫 Create tickets** in Linear/Asana
-- **📝 Edit documents** in Google Drive
+- **🎫 Create tickets** in Linear, Jira, Asana, your task manager
+- **📝 Edit documents** in Google Drive, Notion, Confluence, your internal knowledgebase
 - **💬 Send messages** in Slack
+- **📈 Manage** your CRM
 - **🔗 Any API you connect** - Twitter, Stripe, GitHub, anything
 
-All running securely in YOUR GitHub Codespace with YOUR API keys.
+All running securely in YOUR GitHub with YOUR API keys.
+
 ## See It In Action (30 seconds)
 
 <img src="https://raw.githubusercontent.com/keyboard-dev/keyboard-local/main/Gif4readme.gif" width="1000">
 
-## Quick Start (5 minutes)
+## Get Started (5 minutes)
 
 [Quickstart](https://docs.keyboard.dev/quickstart)
 
@@ -49,7 +52,7 @@ await gmail.send({
 [Approve] [Reject] [Edit]
 ```
 
-Your data never leaves your GitHub Codespace. Keyboard can't see your API keys.
+Your data never leaves your GitHub. Keyboard can't see your API keys. Always secure, always private.
 
 ## Example Automations
 
@@ -59,12 +62,12 @@ Your data never leaves your GitHub Codespace. Keyboard can't see your API keys.
 - "Create a Typeform survey from this list of questions"
 - "Find that document about Q3 planning and summarize it"
 
-## How does it work
+## How It Works
 
 ### How it works in 3 steps:
 
-1. **Ask Claude** to execute a task using your connected tools
-2. **Review & approve** the generated code in the desktop app
+1. **Ask your AI** to execute a task using your connected tools
+2. **Review & approve** the explanation and generated code in the Keyboard desktop app
 3. **Watch it execute** safely in your own GitHub Codespace
 
 ```mermaid
@@ -75,13 +78,13 @@ flowchart LR
     D -->|📊 Results| A
 ```
 
-### Full breakdown
+### Full Breakdown
 
 Keyboard’s MCP server enables remote code execution in a GitHub codespace tied to your GitHub account that can then execute tasks in the connected apps via their APIs. When you ask your AI Client to have Keyboard  to execute a task for you, Keyboard spins up a codespace and writes a node.js script to execute that task for you. The AI Client will walk you through the steps it’s taking and you have the ability to approve any code before it gets executed in the AI Client on your behalf. Once the code is executed you then have the option accept or reject sending the response back to a MCP client like Claude to better ensure your privacy.
 
-## When should I use Keyboard?
+## When Should I Use Keyboard?
 
-When you want your AI Client (Claude, ChatGPT, etc.) to execute tasks on your behalf. Connect your tools to your own secure GitHub Codespace, ask Claude to execute something in one of them and watch Keyboard go to work. With Keyboard, you don’t need to install an MCP server for each app or service you’d like to connect to your AI Client. Instead, any app with an API key can be connected to Keyboard while giving you control to approve or deny the actions.
+When you want your AI Client (Claude, Cursor, ChatGPT, etc.) to execute tasks on your behalf. Connect your tools to your own secure GitHub Codespace, ask Claude to execute something in one of them and watch Keyboard go to work. With Keyboard, you don’t need to install an MCP server for each app or service you’d like to connect to your AI Client. Instead, any app with an API key can be connected to Keyboard while giving you control to approve or deny the actions.
 
 ## Key Features
 
@@ -167,6 +170,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
