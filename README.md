@@ -52,12 +52,7 @@ All running securely in YOUR GitHub with YOUR API keys.
 
 ## Get Started (5 minutes)
 
-See [Quickstart](https://docs.keyboard.dev/quickstart) to get set up. The process will require you to: 
-
-- Install the Keyboard extension (dxt file)
-- Download the Keyboard desktop app
-- Provide Keyboard access to an isolated Keyboard repo you will fork in the setup
-- Connect any apps you'd like to use in your AI client
+See [Quickstart](https://docs.keyboard.dev/getting-started/quickstart) to start using Keyboard in Claude Desktop.
 
 ## When Should I Use Keyboard?
 
@@ -144,8 +139,8 @@ This architecture ensures you maintain full control while enabling your AI to ac
 
 Full docs can be found at https://docs.keyboard.dev/ but see below for direct links to a few docs that will help you use Keyboard after you get set up:
 
-* [Learn how to connect your third party apps](https://docs.keyboard.dev/docs/third-party-apps)
-* [Tips for using Keyboard with Claude](https://docs.keyboard.dev/docs/usability-tips-with-claude)
+* [Learn how to connect your third party apps](https://docs.keyboard.dev/getting-started/thirdpartyapps)
+* [Tips for using Keyboard with Claude](https://docs.keyboard.dev/guides/claude)
 
 ## Run & Contribute to Keyboard
 
@@ -217,6 +212,7 @@ This software is provided "as is" without warranty of any kind, express or impli
 Join our [Discord](https://discord.gg/UxsRWtV6M2) if you have any questions. We'd love to hear from you.
 
 *Built with ❤️ by the Keyboard team*
+
 
 
 
